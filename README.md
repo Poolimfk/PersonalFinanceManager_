@@ -21,5 +21,5 @@ Personal Finance Manager — это веб-приложение для упра�
 
 1. **Клонируйте репозиторий:**
    ```bash
-   git clone https://github.com/Poolimfk/PersonalFinanceManager.git
-   cd PersonalFinanceManager
+   git clone https://github.com/Poolimfk/PersonalFinanceManager_.git
+   cd PersonalFinanceManager_

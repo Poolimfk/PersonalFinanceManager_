@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Budgets</title>
+</head>
+<body>
+    <h1>Budgets</h1>
+    <form method="POST">
+        <p>
+            <label for="name">Name:</label><br>
+            <input type="text" name="name" required>
+        </p>
+        <p>
+            <label for="amount">Amount:</label><br>
+            <input type="number" name="amount" step="0.01" required>
+        </p>
+        <p><input type="submit" value="Create Budget"></p>
+    </form>
+    <h2>Budget List</h2>
+    <ul>
+        {% for budget in budgets %}
+            <li>{{ budget.name }}: {{ budget.amount }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
